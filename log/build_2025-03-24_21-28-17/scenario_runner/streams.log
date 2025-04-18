@@ -1,0 +1,40 @@
+[0.465s] Invoking command in '/home/ayush/challenge_multi_drone/src/challenge_multi_drone/config_sim/ros2/scenario_runner': PYTHONPATH=/home/ayush/challenge_multi_drone/build/scenario_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/scenario_runner build --build-base /home/ayush/challenge_multi_drone/build/scenario_runner/build install --record /home/ayush/challenge_multi_drone/build/scenario_runner/install.log --single-version-externally-managed install_data
+[0.643s] running egg_info
+[0.643s] creating ../../../../../build/scenario_runner/scenario_runner.egg-info
+[0.643s] writing ../../../../../build/scenario_runner/scenario_runner.egg-info/PKG-INFO
+[0.643s] writing dependency_links to ../../../../../build/scenario_runner/scenario_runner.egg-info/dependency_links.txt
+[0.643s] writing entry points to ../../../../../build/scenario_runner/scenario_runner.egg-info/entry_points.txt
+[0.644s] writing requirements to ../../../../../build/scenario_runner/scenario_runner.egg-info/requires.txt
+[0.644s] writing top-level names to ../../../../../build/scenario_runner/scenario_runner.egg-info/top_level.txt
+[0.644s] writing manifest file '../../../../../build/scenario_runner/scenario_runner.egg-info/SOURCES.txt'
+[0.644s] reading manifest file '../../../../../build/scenario_runner/scenario_runner.egg-info/SOURCES.txt'
+[0.645s] writing manifest file '../../../../../build/scenario_runner/scenario_runner.egg-info/SOURCES.txt'
+[0.645s] running build
+[0.645s] running build_py
+[0.645s] creating /home/ayush/challenge_multi_drone/build/scenario_runner/build
+[0.645s] creating /home/ayush/challenge_multi_drone/build/scenario_runner/build/lib
+[0.645s] creating /home/ayush/challenge_multi_drone/build/scenario_runner/build/lib/scenario_runner
+[0.645s] copying scenario_runner/runner.py -> /home/ayush/challenge_multi_drone/build/scenario_runner/build/lib/scenario_runner
+[0.645s] copying scenario_runner/__init__.py -> /home/ayush/challenge_multi_drone/build/scenario_runner/build/lib/scenario_runner
+[0.645s] running install
+[0.645s] running install_lib
+[0.646s] creating /home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages/scenario_runner
+[0.646s] copying /home/ayush/challenge_multi_drone/build/scenario_runner/build/lib/scenario_runner/runner.py -> /home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages/scenario_runner
+[0.646s] copying /home/ayush/challenge_multi_drone/build/scenario_runner/build/lib/scenario_runner/__init__.py -> /home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages/scenario_runner
+[0.646s] byte-compiling /home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages/scenario_runner/runner.py to runner.cpython-310.pyc
+[0.647s] byte-compiling /home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages/scenario_runner/__init__.py to __init__.cpython-310.pyc
+[0.647s] running install_data
+[0.647s] creating /home/ayush/challenge_multi_drone/install/scenario_runner/share/ament_index
+[0.647s] creating /home/ayush/challenge_multi_drone/install/scenario_runner/share/ament_index/resource_index
+[0.647s] creating /home/ayush/challenge_multi_drone/install/scenario_runner/share/ament_index/resource_index/packages
+[0.647s] copying resource/scenario_runner -> /home/ayush/challenge_multi_drone/install/scenario_runner/share/ament_index/resource_index/packages
+[0.647s] copying package.xml -> /home/ayush/challenge_multi_drone/install/scenario_runner/share/scenario_runner
+[0.647s] creating /home/ayush/challenge_multi_drone/install/scenario_runner/share/scenario_runner/config
+[0.647s] creating /home/ayush/challenge_multi_drone/install/scenario_runner/share/scenario_runner/launch
+[0.647s] copying launch/runner.launch.py -> /home/ayush/challenge_multi_drone/install/scenario_runner/share/scenario_runner/launch
+[0.647s] running install_egg_info
+[0.648s] Copying ../../../../../build/scenario_runner/scenario_runner.egg-info to /home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages/scenario_runner-0.0.0-py3.10.egg-info
+[0.648s] running install_scripts
+[0.662s] Installing runner script to /home/ayush/challenge_multi_drone/install/scenario_runner/lib/scenario_runner
+[0.662s] writing list of installed files to '/home/ayush/challenge_multi_drone/build/scenario_runner/install.log'
+[0.684s] Invoked command in '/home/ayush/challenge_multi_drone/src/challenge_multi_drone/config_sim/ros2/scenario_runner' returned '0': PYTHONPATH=/home/ayush/challenge_multi_drone/build/scenario_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayush/challenge_multi_drone/install/scenario_runner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/scenario_runner build --build-base /home/ayush/challenge_multi_drone/build/scenario_runner/build install --record /home/ayush/challenge_multi_drone/build/scenario_runner/install.log --single-version-externally-managed install_data

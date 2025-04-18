@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_cli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/as2_cli -- -j12 -l12
+[0.075s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/as2_cli -- -j12 -l12
+[0.086s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_cli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/as2_cli
+[0.095s] -- Install configuration: ""
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/ament_index/resource_index/package_run_dependencies/as2_cli
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/ament_index/resource_index/parent_prefix_path/as2_cli
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/environment/path.sh
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/environment/path.dsv
+[0.096s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/local_setup.bash
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/local_setup.sh
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/local_setup.zsh
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/local_setup.dsv
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/package.dsv
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/ament_index/resource_index/packages/as2_cli
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/cmake/as2_cliConfig.cmake
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/cmake/as2_cliConfig-version.cmake
+[0.097s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/as2_cli/share/as2_cli/package.xml
+[0.098s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/as2_cli

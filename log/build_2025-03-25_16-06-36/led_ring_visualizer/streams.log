@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/ayush/challenge_multi_drone/build/led_ring_visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/led_ring_visualizer -- -j12 -l12
+[0.154s] [100%] Built target led_ring_visualizer
+[0.174s] Invoked command in '/home/ayush/challenge_multi_drone/build/led_ring_visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/led_ring_visualizer -- -j12 -l12
+[0.178s] Invoking command in '/home/ayush/challenge_multi_drone/build/led_ring_visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/led_ring_visualizer
+[0.192s] -- Install configuration: ""
+[0.193s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/lib/led_ring_visualizer/led_ring_visualizer
+[0.194s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer//launch
+[0.194s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer//launch/led_ring_viz.launch.py
+[0.194s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/ament_index/resource_index/package_run_dependencies/led_ring_visualizer
+[0.194s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/ament_index/resource_index/parent_prefix_path/led_ring_visualizer
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/environment/ament_prefix_path.sh
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/environment/ament_prefix_path.dsv
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/environment/path.sh
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/environment/path.dsv
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/local_setup.bash
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/local_setup.sh
+[0.195s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/local_setup.zsh
+[0.196s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/local_setup.dsv
+[0.196s] -- Installing: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/package.dsv
+[0.196s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/ament_index/resource_index/packages/led_ring_visualizer
+[0.196s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/cmake/led_ring_visualizerConfig.cmake
+[0.196s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/cmake/led_ring_visualizerConfig-version.cmake
+[0.196s] -- Up-to-date: /home/ayush/challenge_multi_drone/install/led_ring_visualizer/share/led_ring_visualizer/package.xml
+[0.201s] Invoked command in '/home/ayush/challenge_multi_drone/build/led_ring_visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/led_ring_visualizer

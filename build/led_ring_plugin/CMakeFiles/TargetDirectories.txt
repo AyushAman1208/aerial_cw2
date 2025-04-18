@@ -1,0 +1,10 @@
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/uninstall.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/led_ring_plugin_uninstall.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/LedRingPlugin.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/test.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/edit_cache.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/rebuild_cache.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/list_install_components.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/install.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/install/local.dir
+/home/ayush/challenge_multi_drone/build/led_ring_plugin/CMakeFiles/install/strip.dir

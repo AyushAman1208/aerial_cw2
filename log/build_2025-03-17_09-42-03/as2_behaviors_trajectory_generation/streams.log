@@ -1,0 +1,259 @@
+[0.028s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/lib:/home/ayush/challenge_multi_drone/install/as2_behavior/lib:/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ayush/challenge_multi_drone/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation -DCMAKE_INSTALL_PREFIX=/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.426s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.915s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.010s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.024s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.042s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.196s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.202s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.326s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.371s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.444s] -- Looking for pthread.h
+[1.536s] -- Looking for pthread.h - found
+[1.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.641s] -- Found Threads: TRUE  
+[1.732s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.745s] -- Found as2_core: 1.1.2 (/home/ayush/challenge_multi_drone/install/as2_core/share/as2_core/cmake)
+[1.964s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.966s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.966s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.147s] -- Found as2_behavior: 1.1.2 (/home/ayush/challenge_multi_drone/install/as2_behavior/share/as2_behavior/cmake)
+[2.149s] -- Found as2_motion_reference_handlers: 1.1.2 (/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[2.199s] -- dynamic_trajectory_generator not found
+[4.150s] -- Found glog.
+[4.150s] -- GLOG Used config file: /home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation/lib/cmake/glog/glog-config.cmake
+[4.171s] -- Could not locate NLopt.
+[5.225s] -- NLopt version 2.7.1
+[5.231s] -- Looking for getopt.h
+[5.325s] -- Looking for getopt.h - found
+[5.326s] -- Looking for unistd.h
+[5.427s] -- Looking for unistd.h - found
+[5.427s] -- Looking for stdint.h
+[5.524s] -- Looking for stdint.h - found
+[5.524s] -- Looking for time.h
+[5.620s] -- Looking for time.h - found
+[5.620s] -- Looking for sys/time.h
+[5.716s] -- Looking for sys/time.h - found
+[5.716s] -- Looking for getpid
+[5.813s] -- Looking for getpid - found
+[5.813s] -- Looking for syscall
+[5.910s] -- Looking for syscall - found
+[5.910s] -- Looking for isinf
+[6.010s] -- Looking for isinf - found
+[6.010s] -- Looking for isnan
+[6.110s] -- Looking for isnan - found
+[6.110s] -- Looking for gettimeofday
+[6.210s] -- Looking for gettimeofday - found
+[6.210s] -- Looking for qsort_r
+[6.311s] -- Looking for qsort_r - found
+[6.311s] -- Looking for time
+[6.402s] -- Looking for time - found
+[6.403s] -- Looking for copysign
+[6.493s] -- Looking for copysign - found
+[6.494s] -- Looking for getopt
+[6.585s] -- Looking for getopt - found
+[6.586s] -- Looking for sys/types.h
+[6.680s] -- Looking for sys/types.h - found
+[6.681s] -- Looking for stddef.h
+[6.773s] -- Looking for stddef.h - found
+[6.773s] -- Check size of uint32_t
+[6.877s] -- Check size of uint32_t - done
+[6.877s] -- Check size of unsigned int
+[6.976s] -- Check size of unsigned int - done
+[6.977s] -- Check size of unsigned long
+[7.081s] -- Check size of unsigned long - done
+[7.081s] -- Looking for sqrt in m
+[7.189s] -- Looking for sqrt in m - found
+[7.189s] -- Looking for fpclassify
+[7.300s] -- Looking for fpclassify - TRUE
+[7.300s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[7.392s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Success
+[7.392s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[7.428s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Failed
+[7.429s] -- Looking for __cplusplus
+[7.529s] -- Looking for __cplusplus - found
+[7.530s] -- Performing Test SUPPORTS_STDCXX11
+[7.640s] -- Performing Test SUPPORTS_STDCXX11 - Success
+[7.683s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[7.693s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") 
+[7.963s] -- Found NumPy: /home/ayush/.local/lib/python3.10/site-packages/numpy/_core/include (found version "2.2.3") 
+[7.977s] -- Could NOT find Guile (missing: GUILE_EXECUTABLE GUILE_ROOT_DIR GUILE_INCLUDE_DIRS GUILE_LIBRARIES) 
+[7.982s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[7.995s] -- Could NOT find Octave (missing: OCTAVE_EXECUTABLE OCTAVE_ROOT_DIR OCTAVE_INCLUDE_DIRS OCTAVE_LIBRARIES) 
+[8.002s] -- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY MX_LIBRARY MAIN_PROGRAM) (found version "NOTFOUND")
+[8.033s] -- Used config file: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake
+[8.033s] -- No yaml_cpp_catkin, using yaml-cpp system library instead.
+[8.050s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[8.121s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.249s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.258s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.374s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.377s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.377s] -- Configured cppcheck include dirs: 
+[8.377s] -- Configured cppcheck exclude dirs and/or files: 
+[8.379s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.379s] -- Configured cpplint exclude dirs and/or files: 
+[8.380s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.381s] -- Added test 'lint_cmake' to check CMake code style
+[8.383s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.384s] -- Added test 'uncrustify' to check C / C++ code style
+[8.384s] -- Configured uncrustify additional arguments: 
+[8.385s] -- Added test 'xmllint' to check XML markup files
+[8.387s] -- Configuring done
+[8.505s] -- Generating done
+[8.531s] -- Build files have been written to: /home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation
+[8.550s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/lib:/home/ayush/challenge_multi_drone/install/as2_behavior/lib:/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ayush/challenge_multi_drone/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation -DCMAKE_INSTALL_PREFIX=/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation
+[8.552s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/lib:/home/ayush/challenge_multi_drone/install/as2_behavior/lib:/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation -- -j12 -l12
+[8.625s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.627s] [  2%] [34m[1mGenerating nlopt.hpp[0m
+[8.627s] [  3%] [34m[1mGenerating nlopt.f[0m
+[8.631s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.654s] [  5%] Built target generate-fortran
+[8.662s] [  5%] Built target generate-cpp
+[8.702s] [  7%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o[0m
+[8.702s] [  7%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o[0m
+[8.702s] [  8%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/hybrid.c.o[0m
+[8.706s] [ 10%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o[0m
+[8.706s] [ 11%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plis.c.o[0m
+[8.707s] [ 14%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/praxis/praxis.c.o[0m
+[8.707s] [ 15%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o[0m
+[8.707s] [ 14%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o[0m
+[8.709s] [ 16%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pnet.c.o[0m
+[8.712s] [ 17%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plip.c.o[0m
+[8.894s] [ 19%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pssubs.c.o[0m
+[8.898s] [ 20%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/mssubs.c.o[0m
+[9.005s] [ 21%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/crs/crs.c.o[0m
+[9.046s] [ 23%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mlsl/mlsl.c.o[0m
+[9.090s] [ 24%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/mma.c.o[0m
+[9.157s] [ 25%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/ccsa_quadratic.c.o[0m
+[9.244s] [ 26%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cobyla/cobyla.c.o[0m
+[9.427s] [ 28%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/newuoa/newuoa.c.o[0m
+[9.531s] [ 29%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/nldrmd.c.o[0m
+[9.539s] [ 30%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/sbplx.c.o[0m
+[9.558s] [ 32%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/auglag/auglag.c.o[0m
+[9.656s] [ 33%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/bobyqa/bobyqa.c.o[0m
+[9.945s] [ 34%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/isres/isres.c.o[0m
+[9.977s] [ 35%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/slsqp/slsqp.c.o[0m
+[10.079s] [ 37%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/esch/esch.c.o[0m
+[10.209s] [ 38%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/general.c.o[0m
+[10.233s] [ 39%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/options.c.o[0m
+[10.237s] [ 41%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/optimize.c.o[0m
+[10.560s] [ 42%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/deprecated.c.o[0m
+[10.602s] [ 43%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/f77api.c.o[0m
+[10.648s] [ 44%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/mt19937ar.c.o[0m
+[10.716s] [ 46%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/sobolseq.c.o[0m
+[10.946s] [ 47%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/timer.c.o[0m
+[11.152s] [ 48%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/stop.c.o[0m
+[11.238s] [ 51%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/qsort_r.c.o[0m
+[11.241s] [ 51%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/redblack.c.o[0m
+[11.362s] [ 52%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/rescale.c.o[0m
+[11.487s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[11.561s] [ 55%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/global.cc.o[0m
+[11.624s] [ 56%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/linalg.cc.o[0m
+[11.658s] [ 56%] Built target gtest_main
+[11.693s] [ 57%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/local.cc.o[0m
+[11.699s] [ 58%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/stogo.cc.o[0m
+[11.883s] [ 60%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/evolvent.cc.o[0m
+[11.885s] [ 61%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/tools.cc.o[0m
+[11.989s] [ 62%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/solver.cc.o[0m
+[12.804s] [ 64%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/local_optimizer.cc.o[0m
+[12.806s] [ 65%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/ags.cc.o[0m
+[21.481s] [ 66%] [32m[1mLinking CXX shared library libnlopt.so[0m
+[21.708s] [ 69%] Built target nlopt
+[21.772s] [ 70%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[21.772s] [ 71%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[21.772s] [ 73%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[21.778s] [ 74%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[21.778s] [ 75%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[21.779s] [ 76%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[21.788s] [ 78%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[21.799s] [ 79%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[21.803s] [ 80%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[21.808s] [ 82%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[32.715s] [ 83%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.798s] [ 83%] Built target gtest
+[40.746s] [ 84%] [32m[1mLinking CXX shared library libmav_trajectory_generation.so[0m
+[40.985s] [ 84%] Built target mav_trajectory_generation
+[41.017s] [ 85%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/test_polynomial.dir/test/test_polynomial.cpp.o[0m
+[41.017s] [ 87%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_waypoint.cpp.o[0m
+[41.017s] [ 88%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_trajectory.cpp.o[0m
+[43.463s] [ 89%] [32m[1mLinking CXX executable test_polynomial[0m
+[43.629s] [ 89%] Built target test_polynomial
+[56.339s] [ 91%] [32m[1mLinking CXX shared library libdynamic_trajectory_generator.so[0m
+[56.475s] [ 91%] Built target dynamic_trajectory_generator
+[56.511s] [ 94%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/CMakeFiles/trajectory_generator_component.dir/src/generate_polynomial_trajectory_behavior.cpp.o[0m
+[56.511s] [ 94%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/CMakeFiles/generate_polynomial_trajectory_behavior_node.dir/src/generate_polynomial_trajectory_behavior_node.cpp.o[0m
+[56.511s] [ 94%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/CMakeFiles/generate_polynomial_trajectory_behavior_node.dir/src/generate_polynomial_trajectory_behavior.cpp.o[0m
+[95.479s] [ 96%] [32m[1mLinking CXX shared library libtrajectory_generator_component.so[0m
+[96.392s] [ 96%] Built target trajectory_generator_component
+[96.446s] [ 97%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/tests/CMakeFiles/as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest.dir/generate_polynomial_trajectory_behavior_gtest.cpp.o[0m
+[104.720s] [ 98%] [32m[1mLinking CXX executable generate_polynomial_trajectory_behavior_node[0m
+[105.487s] [ 98%] Built target generate_polynomial_trajectory_behavior_node
+[107.463s] [100%] [32m[1mLinking CXX executable as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest[0m
+[107.843s] [100%] Built target as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest
+[107.860s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/lib:/home/ayush/challenge_multi_drone/install/as2_behavior/lib:/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation -- -j12 -l12
+[107.863s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/lib:/home/ayush/challenge_multi_drone/install/as2_behavior/lib:/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation
+[107.874s] -- Install configuration: "Release"
+[107.875s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_trajectory_generation
+[107.875s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_trajectory_generation
+[107.875s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/ament_prefix_path.sh
+[107.875s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/ament_prefix_path.dsv
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/path.sh
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/path.dsv
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.bash
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.sh
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.zsh
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.dsv
+[107.876s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/package.dsv
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/packages/as2_behaviors_trajectory_generation
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/rclcpp_components/as2_behaviors_trajectory_generation
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/ament_cmake_export_dependencies-extras.cmake
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/as2_behaviors_trajectory_generationConfig.cmake
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/as2_behaviors_trajectory_generationConfig-version.cmake
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/package.xml
+[107.877s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libtrajectory_generator_component.so
+[107.880s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libtrajectory_generator_component.so" to ""
+[107.880s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libdynamic_trajectory_generator.so
+[107.881s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libdynamic_trajectory_generator.so" to ""
+[107.881s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libmav_trajectory_generation.so
+[107.882s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libmav_trajectory_generation.so" to ""
+[107.882s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch
+[107.882s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch/generate_polynomial_trajectory_behavior_launch.py
+[107.883s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch/composable_generate_polynomial_trajectory_behavior.launch.py
+[107.884s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/config
+[107.884s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/config/config_default.yaml
+[107.884s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node
+[107.888s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node" to ""
+[107.889s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/pkgconfig/nlopt.pc
+[107.890s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/include/nlopt.h
+[107.890s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/include/nlopt.hpp
+[107.890s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/include/nlopt.f
+[107.890s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0.11.1
+[107.892s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0
+[107.892s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0.11.1" to "/home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib"
+[107.892s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/libnlopt.so
+[107.892s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+[107.892s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+[107.893s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfig.cmake
+[107.893s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfigVersion.cmake
+[107.893s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt.3
+[107.893s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt_minimize.3
+[107.894s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt_minimize_constrained.3
+[107.897s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers:/home/ayush/challenge_multi_drone/install/as2_behavior:/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/lib:/home/ayush/challenge_multi_drone/install/as2_behavior/lib:/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation

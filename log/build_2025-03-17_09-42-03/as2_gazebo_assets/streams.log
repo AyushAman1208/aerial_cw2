@@ -1,0 +1,569 @@
+[0.016s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ayush/challenge_multi_drone/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_INSTALL_PREFIX=/home/ayush/challenge_multi_drone/install/as2_gazebo_assets
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.386s] [0mUsing GAZEBO version: fortress[0m
+[0.392s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[0.403s] -- Searching for dependencies of ignition-gazebo6
+[0.407s] -- Looking for sdformat12 -- found version 12.8.0
+[0.407s] -- Searching for dependencies of sdformat12
+[0.416s] -- Checking for module 'tinyxml2'
+[0.432s] --   Found tinyxml2, version 9.0.0
+[0.471s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.471s] -- Searching for dependencies of ignition-math6
+[0.475s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.475s] -- Searching for dependencies of ignition-utils1
+[0.482s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.482s] -- Searching for dependencies of ignition-plugin1
+[0.483s] -- Searching for <ignition-plugin1> component [loader]
+[0.486s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.486s] -- Searching for dependencies of ignition-plugin1-loader
+[0.487s] -- Searching for <ignition-plugin1> component [register]
+[0.493s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.494s] -- Searching for dependencies of ignition-plugin1-register
+[0.498s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.498s] -- Searching for dependencies of ignition-transport11
+[0.695s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.713s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.719s] -- Checking for module 'libzmq >= 4'
+[0.737s] --   Found libzmq , version 4.3.4
+[0.779s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.786s] -- Checking for module 'uuid'
+[0.805s] --   Found uuid, version 2.37.2
+[0.840s] -- Found UUID: TRUE  
+[0.840s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.841s] -- Searching for dependencies of ignition-utils1
+[0.841s] -- Searching for <ignition-utils1> component [cli]
+[0.845s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.845s] -- Searching for dependencies of ignition-utils1-cli
+[0.850s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.850s] -- Searching for dependencies of ignition-msgs8
+[0.870s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.871s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.883s] -- Searching for <ignition-transport11> component [log]
+[0.886s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[0.887s] -- Searching for dependencies of ignition-transport11-log
+[0.887s] -- Searching for <ignition-transport11> component [parameters]
+[0.892s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[0.892s] -- Searching for dependencies of ignition-transport11-parameters
+[0.893s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.897s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.897s] -- Searching for dependencies of ignition-common4
+[0.898s] -- Looking for dlfcn.h - found
+[0.899s] -- Looking for libdl - found
+[0.900s] -- Found DL: TRUE  
+[0.909s] -- Searching for <ignition-common4> component [profiler]
+[0.915s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[0.915s] -- Searching for dependencies of ignition-common4-profiler
+[0.916s] -- Searching for <ignition-common4> component [events]
+[0.921s] -- Looking for ignition-common4-events -- found version 4.7.0
+[0.921s] -- Searching for dependencies of ignition-common4-events
+[0.921s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.922s] -- Searching for <ignition-common4> component [av]
+[0.926s] -- Looking for ignition-common4-av -- found version 4.7.0
+[0.927s] -- Searching for dependencies of ignition-common4-av
+[0.934s] -- Checking for module 'libswscale'
+[0.951s] --   Found libswscale, version 5.9.100
+[0.988s] -- Found SWSCALE: TRUE  
+[0.994s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.014s] --   Found libavdevice , version 58.13.100
+[1.055s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.061s] -- Checking for module 'libavformat'
+[1.078s] --   Found libavformat, version 58.76.100
+[1.123s] -- Found AVFORMAT: TRUE  
+[1.129s] -- Checking for module 'libavcodec'
+[1.144s] --   Found libavcodec, version 58.134.100
+[1.183s] -- Found AVCODEC: TRUE  
+[1.190s] -- Checking for module 'libavutil'
+[1.211s] --   Found libavutil, version 56.70.100
+[1.248s] -- Found AVUTIL: TRUE  
+[1.253s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[1.253s] -- Searching for dependencies of ignition-fuel_tools7
+[1.344s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.355s] -- Checking for module 'jsoncpp'
+[1.372s] --   Found jsoncpp, version 1.9.5
+[1.413s] -- Found JSONCPP: TRUE  
+[1.423s] -- Checking for module 'libzip'
+[1.439s] --   Found libzip, version 1.7.3
+[1.476s] -- Found ZIP: TRUE  
+[1.476s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.477s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.477s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.482s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.482s] -- Searching for dependencies of ignition-gui6
+[1.511s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.512s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.512s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.513s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.518s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.519s] -- Searching for dependencies of ignition-rendering6
+[1.519s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.520s] -- Searching for dependencies of ignition-math6
+[1.520s] -- Searching for <ignition-math6> component [eigen3]
+[1.524s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.524s] -- Searching for dependencies of ignition-math6-eigen3
+[1.532s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.532s] -- Searching for dependencies of ignition-common4
+[1.532s] -- Looking for dlfcn.h - found
+[1.532s] -- Looking for libdl - found
+[1.544s] -- Searching for <ignition-common4> component [graphics]
+[1.548s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.548s] -- Searching for dependencies of ignition-common4-graphics
+[1.549s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.550s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.550s] -- Searching for <ignition-common4> component [events]
+[1.551s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.552s] -- Searching for dependencies of ignition-plugin1
+[1.552s] -- Searching for <ignition-plugin1> component [all]
+[1.556s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.557s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.559s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.589s] -- Looking for ignition-physics5 -- found version 5.3.2
+[1.589s] -- Searching for dependencies of ignition-physics5
+[1.589s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.590s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.590s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.592s] -- Searching for <ignition-physics5> component [heightmap]
+[1.595s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[1.596s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.596s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.597s] -- Searching for <ignition-physics5> component [mesh]
+[1.601s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[1.601s] -- Searching for dependencies of ignition-physics5-mesh
+[1.601s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.602s] -- Searching for <ignition-physics5> component [sdf]
+[1.606s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[1.606s] -- Searching for dependencies of ignition-physics5-sdf
+[1.607s] -- Looking for sdformat12 -- found version 12.8.0
+[1.611s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.612s] -- Searching for dependencies of ignition-sensors6
+[1.630s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.631s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.631s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.632s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.632s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.633s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.633s] -- Looking for sdformat12 -- found version 12.8.0
+[1.634s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.641s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[1.641s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.642s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.646s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[1.646s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.647s] -- Searching for <ignition-sensors6> component [imu]
+[1.651s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[1.651s] -- Searching for dependencies of ignition-sensors6-imu
+[1.652s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.656s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[1.656s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.657s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.661s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[1.661s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[1.662s] -- Searching for <ignition-sensors6> component [magnetometer]
+[1.666s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[1.666s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[1.667s] -- Searching for <ignition-sensors6> component [navsat]
+[1.672s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[1.673s] -- Searching for dependencies of ignition-sensors6-navsat
+[1.673s] -- Searching for <ignition-sensors6> component [rendering]
+[1.679s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[1.680s] -- Searching for dependencies of ignition-sensors6-rendering
+[1.681s] -- Searching for <ignition-sensors6> component [lidar]
+[1.687s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[1.688s] -- Searching for dependencies of ignition-sensors6-lidar
+[1.688s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.689s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[1.696s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[1.696s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[1.697s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.698s] -- Searching for <ignition-sensors6> component [camera]
+[1.704s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[1.705s] -- Searching for dependencies of ignition-sensors6-camera
+[1.705s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.707s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[1.712s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[1.712s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[1.713s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[1.717s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[1.717s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[1.718s] -- Searching for <ignition-sensors6> component [depth_camera]
+[1.721s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[1.722s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[1.722s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.723s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[1.726s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[1.727s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[1.727s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.728s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[1.731s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[1.732s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[1.732s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.733s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.733s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.737s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.755s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.757s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.757s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.757s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.757s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.757s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.760s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.002s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.181s] -- Found ros_gz_sim: 0.244.16 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[2.276s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.290s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.311s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.441s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.446s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.603s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.663s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.677s] -- Found Threads: TRUE  
+[2.755s] -- Found ros_gz_bridge: 0.244.16 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[3.136s] -- Found as2_core: 1.1.2 (/home/ayush/challenge_multi_drone/install/as2_core/share/as2_core/cmake)
+[3.269s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.271s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.271s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.679s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.854s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[5.589s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.602s] -- Configured cppcheck include dirs: /home/ayush/challenge_multi_drone/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include;/home/ayush/challenge_multi_drone/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include/as2_gazebo_assets
+[5.602s] -- Configured cppcheck exclude dirs and/or files: 
+[5.610s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.610s] -- Configured cpplint exclude dirs and/or files: 
+[5.612s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.615s] -- Added test 'lint_cmake' to check CMake code style
+[5.617s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.625s] -- Added test 'uncrustify' to check C / C++ code style
+[5.625s] -- Configured uncrustify additional arguments: 
+[5.626s] -- Added test 'xmllint' to check XML markup files
+[5.628s] -- Configuring done
+[5.691s] -- Generating done
+[5.717s] -- Build files have been written to: /home/ayush/challenge_multi_drone/build/as2_gazebo_assets
+[5.735s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ayush/challenge_multi_drone/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_INSTALL_PREFIX=/home/ayush/challenge_multi_drone/install/as2_gazebo_assets
+[5.737s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/as2_gazebo_assets -- -j12 -l12
+[5.803s] [  4%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o[0m
+[5.803s] [  8%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o[0m
+[5.806s] [ 12%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/INDIControlPlugin.cpp.o[0m
+[5.807s] [ 16%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o[0m
+[5.807s] [ 20%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge.cpp.o[0m
+[5.808s] [ 25%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge_node.cpp.o[0m
+[5.809s] [ 29%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o[0m
+[5.810s] [ 33%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/Common.cpp.o[0m
+[5.813s] [ 41%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o[0m
+[5.813s] [ 41%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge.cpp.o[0m
+[5.824s] [ 45%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster.cpp.o[0m
+[5.834s] [ 45%] Built target ament_cmake_python_copy_as2_gazebo_assets
+[5.863s] [ 50%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o[0m
+[27.235s] [ 54%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o[0m
+[27.335s] [ 58%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge_node.cpp.o[0m
+[28.046s] [ 62%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster_node.cpp.o[0m
+[30.967s] running egg_info
+[30.969s] creating as2_gazebo_assets.egg-info
+[30.970s] writing as2_gazebo_assets.egg-info/PKG-INFO
+[30.974s] writing dependency_links to as2_gazebo_assets.egg-info/dependency_links.txt
+[30.975s] writing top-level names to as2_gazebo_assets.egg-info/top_level.txt
+[30.975s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[30.980s] reading manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[30.982s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[30.990s] [ 66%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o[0m
+[31.062s] [ 66%] Built target ament_cmake_python_build_as2_gazebo_assets_egg
+[33.806s] [ 70%] [32m[1mLinking CXX executable gps_bridge[0m
+[33.819s] [ 75%] [32m[1mLinking CXX executable azimuth_bridge[0m
+[35.249s] [ 75%] Built target azimuth_bridge
+[35.489s] [ 79%] [32m[1mLinking CXX executable ground_truth_bridge[0m
+[36.337s] [ 79%] Built target gps_bridge
+[37.406s] [ 79%] Built target ground_truth_bridge
+[39.078s] [ 83%] [32m[1mLinking CXX shared library libMulticopterINDIControl.so[0m
+[40.309s] [ 83%] Built target MulticopterINDIControl
+[45.587s] [ 87%] [32m[1mLinking CXX executable object_tf_broadcaster[0m
+[46.183s] [ 91%] [32m[1mLinking CXX executable set_entity_pose_bridge[0m
+[46.746s] [ 91%] Built target object_tf_broadcaster
+[46.892s] [ 91%] Built target set_entity_pose_bridge
+[47.820s] [ 95%] [32m[1mLinking CXX executable gimbal_bridge[0m
+[48.706s] [100%] [32m[1mLinking CXX executable acro_bridge[0m
+[48.759s] [100%] Built target gimbal_bridge
+[49.472s] [100%] Built target acro_bridge
+[49.488s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ayush/challenge_multi_drone/build/as2_gazebo_assets -- -j12 -l12
+[49.490s] Invoking command in '/home/ayush/challenge_multi_drone/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/as2_gazebo_assets
+[49.501s] -- Install configuration: ""
+[49.501s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.dsv
+[49.501s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.sh
+[49.502s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/azimuth_bridge
+[49.504s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/azimuth_bridge" to ""
+[49.504s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/gps_bridge
+[49.506s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/gps_bridge" to ""
+[49.506s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/ground_truth_bridge
+[49.508s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/ground_truth_bridge" to ""
+[49.508s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/object_tf_broadcaster
+[49.511s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/object_tf_broadcaster" to ""
+[49.511s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/gimbal_bridge
+[49.514s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/gimbal_bridge" to ""
+[49.514s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/acro_bridge
+[49.517s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/acro_bridge" to ""
+[49.517s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/set_entity_pose_bridge
+[49.518s] -- Set runtime path of "/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/as2_gazebo_assets/set_entity_pose_bridge" to ""
+[49.518s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/lib/libMulticopterINDIControl.so
+[49.521s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.sh
+[49.521s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.dsv
+[49.521s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/dependency_links.txt
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/SOURCES.txt
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/PKG-INFO
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/top_level.txt
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests
+[49.522s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py
+[49.523s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py
+[49.524s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py
+[49.574s] Listing '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets'...
+[49.574s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py'...
+[49.574s] Listing '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges'...
+[49.574s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py'...
+[49.574s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py'...
+[49.574s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py'...
+[49.575s] Listing '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py'...
+[49.575s] Listing '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests'...
+[49.575s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py'...
+[49.576s] Listing '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils'...
+[49.576s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py'...
+[49.576s] Compiling '/home/ayush/challenge_multi_drone/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py'...
+[49.580s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include
+[49.580s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets
+[49.580s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/gps_bridge.hpp
+[49.580s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/gimbal_bridge.hpp
+[49.580s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/object_tf_broadcaster.hpp
+[49.580s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/azimuth_bridge.hpp
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/set_entity_pose_bridge.hpp
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/acro_bridge.hpp
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/include/as2_gazebo_assets/ground_truth_bridge.hpp
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/launch
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/launch_simulation.py
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/drone_bridges.py
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/monitor_sim.py
+[49.581s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/world_bridges.py
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/object_bridges.py
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/grass.sdf.jinja
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/test_gripper.sdf
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/empty.sdf.jinja
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf.jinja
+[49.582s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/speed_gimbal.sdf.jinja
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/model.config
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/scripts
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/scripts/aruco.material
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures
+[49.583s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker3.png
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker4.png
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker2.png
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker1.png
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker5.png
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/aruco.sdf
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/model.config
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/meshes
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/meshes/checkerboard_plane.dae
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill
+[49.584s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/windmill.sdf
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/model.config
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/rotor.dae
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/tower.dae
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/blades.dae
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/Plastic010_1K_Displacement.jpg
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure
+[49.585s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/air_pressure.sdf
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/model.config
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials/textures
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials/textures/led.jpg
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/model.config
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes
+[49.586s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_cw.dae
+[49.588s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.jpg
+[49.588s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led.dae
+[49.588s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.dae
+[49.589s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led_lamp.dae
+[49.589s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_ccw.dae
+[49.591s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf.jinja
+[49.591s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d
+[49.591s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/lidar_3d.sdf
+[49.592s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/model.config
+[49.592s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500
+[49.592s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials
+[49.592s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures
+[49.592s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/CF.png
+[49.594s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/nxp.png
+[49.594s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/rd.png
+[49.594s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails
+[49.594s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/3.png
+[49.595s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/4.png
+[49.595s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/5.png
+[49.595s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/1.png
+[49.595s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/2.png
+[49.596s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf
+[49.596s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf.jinja
+[49.596s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/model.config
+[49.596s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes
+[49.596s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_cw.stl
+[49.597s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/CF.png
+[49.600s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Bell.dae
+[49.600s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Base.dae
+[49.601s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_ccw.stl
+[49.602s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/NXP-HGD-CF.dae
+[49.628s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar
+[49.628s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/planar_lidar.sdf
+[49.628s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/model.config
+[49.628s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera
+[49.628s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/grayscaled_camera.sdf
+[49.628s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/grayscaled_camera.sdf.jinja
+[49.629s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/model.config
+[49.629s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie
+[49.629s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf.jinja
+[49.629s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/model.config
+[49.630s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf
+[49.630s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes
+[49.630s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cf2_assembly.dae
+[49.631s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/ccw_prop.dae
+[49.631s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cw_prop.dae
+[49.631s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps
+[49.632s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/gps.sdf
+[49.632s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/model.config
+[49.632s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera
+[49.632s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf
+[49.632s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf.jinja
+[49.633s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/model.config
+[49.633s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision
+[49.633s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf
+[49.633s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails
+[49.633s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_front.png
+[49.634s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_top.png
+[49.634s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4vision_diagonal.png
+[49.635s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf.jinja
+[49.635s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/model.config
+[49.635s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes
+[49.635s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_cw.dae
+[49.636s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_ccw.dae
+[49.637s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/body.dae
+[49.649s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar
+[49.649s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/3d_lidar.sdf
+[49.649s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/model.config
+[49.649s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera
+[49.650s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/model.config
+[49.650s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf.jinja
+[49.650s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf
+[49.650s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate
+[49.650s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/gate.sdf
+[49.650s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/model.config
+[49.651s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes
+[49.651s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate.dae
+[49.652s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate_color.png
+[49.652s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane
+[49.652s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/ground_plane.sdf
+[49.652s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/model.config
+[49.653s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch
+[49.653s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials
+[49.653s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials/textures
+[49.653s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials/textures/grass_dry.png
+[49.654s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/thumbnails
+[49.654s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/thumbnails/grasspatch.jpg
+[49.655s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.sdf
+[49.655s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.config
+[49.655s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer
+[49.655s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/magnetometer.sdf
+[49.656s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/model.config
+[49.656s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper
+[49.656s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/suction_gripper.sdf
+[49.656s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/model.config
+[49.656s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1
+[49.656s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/aruco_gate_1.sdf
+[49.657s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/model.config
+[49.657s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes
+[49.657s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base_2.stl
+[49.658s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/background.stl
+[49.658s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop.stl
+[49.658s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base.stl
+[49.659s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop_2.stl
+[49.659s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar
+[49.659s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/point_lidar.sdf
+[49.659s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/model.config
+[49.659s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2
+[49.660s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/aruco_gate_2.sdf
+[49.660s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/model.config
+[49.660s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base
+[49.660s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials
+[49.660s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials/textures
+[49.660s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials/textures/led.jpg
+[49.661s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf
+[49.661s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf.jinja
+[49.661s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/model.config
+[49.661s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes
+[49.661s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.dae
+[49.662s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led.dae
+[49.663s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.jpg
+[49.663s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_ccw.dae
+[49.664s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led_lamp.dae
+[49.664s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_cw.dae
+[49.664s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera
+[49.664s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf
+[49.664s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/model.config
+[49.664s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf.jinja
+[49.665s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera
+[49.665s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf
+[49.665s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf.jinja
+[49.665s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/model.config
+[49.665s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/scripts
+[49.665s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/scripts/jinja_gen.py
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/ament_index/resource_index/package_run_dependencies/as2_gazebo_assets
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/ament_index/resource_index/parent_prefix_path/as2_gazebo_assets
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.sh
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.dsv
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.sh
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.dsv
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.bash
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.sh
+[49.666s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.zsh
+[49.667s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.dsv
+[49.667s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/package.dsv
+[49.667s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/ament_index/resource_index/packages/as2_gazebo_assets
+[49.667s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig.cmake
+[49.667s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig-version.cmake
+[49.667s] -- Installing: /home/ayush/challenge_multi_drone/install/as2_gazebo_assets/share/as2_gazebo_assets/package.xml
+[49.669s] Invoked command in '/home/ayush/challenge_multi_drone/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayush/challenge_multi_drone/install/as2_core:/home/ayush/challenge_multi_drone/install/as2_msgs:/home/ayush/project_gazebo_ws/install/aerostack2:/home/ayush/project_gazebo_ws/install/as2_usb_camera_interface:/home/ayush/project_gazebo_ws/install/as2_state_estimator:/home/ayush/project_gazebo_ws/install/as2_rviz_plugins:/home/ayush/project_gazebo_ws/install/as2_realsense_interface:/home/ayush/project_gazebo_ws/install/as2_platform_multirotor_simulator:/home/ayush/project_gazebo_ws/install/as2_platform_gazebo:/home/ayush/project_gazebo_ws/install/as2_motion_controller:/home/ayush/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/home/ayush/project_gazebo_ws/install/as2_behaviors_motion:/home/ayush/project_gazebo_ws/install/as2_motion_reference_handlers:/home/ayush/project_gazebo_ws/install/as2_map_server:/home/ayush/project_gazebo_ws/install/as2_geozones:/home/ayush/project_gazebo_ws/install/as2_gazebo_assets:/home/ayush/project_gazebo_ws/install/as2_external_object_to_tf:/home/ayush/project_gazebo_ws/install/as2_behaviors_platform:/home/ayush/project_gazebo_ws/install/as2_behaviors_perception:/home/ayush/project_gazebo_ws/install/as2_behaviors_path_planning:/home/ayush/project_gazebo_ws/install/as2_behavior_tree:/home/ayush/project_gazebo_ws/install/as2_behavior:/home/ayush/project_gazebo_ws/install/as2_alphanumeric_viewer:/home/ayush/project_gazebo_ws/install/as2_core:/home/ayush/project_gazebo_ws/install/as2_msgs:/home/ayush/project_gazebo_ws/install/as2_cli:/home/ayush/project_gazebo_ws/install/as2_visualization:/home/ayush/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/ayush/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/ayush/challenge_multi_drone/install/as2_core/lib:/home/ayush/challenge_multi_drone/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayush/challenge_multi_drone/install/as2_core/local/lib/python3.10/dist-packages:/home/ayush/challenge_multi_drone/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ayush/challenge_multi_drone/build/as2_gazebo_assets
