@@ -1,3 +1,0 @@
-/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-subbuild/CMakeFiles/dynamic_trajectory_generator-populate.dir
-/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-subbuild/CMakeFiles/edit_cache.dir
-/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-subbuild/CMakeFiles/rebuild_cache.dir

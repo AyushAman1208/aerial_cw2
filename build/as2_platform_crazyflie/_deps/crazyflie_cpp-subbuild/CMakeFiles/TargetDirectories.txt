@@ -1,3 +1,0 @@
-/home/ayush/challenge_multi_drone/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/CMakeFiles/crazyflie_cpp-populate.dir
-/home/ayush/challenge_multi_drone/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/CMakeFiles/edit_cache.dir
-/home/ayush/challenge_multi_drone/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/CMakeFiles/rebuild_cache.dir

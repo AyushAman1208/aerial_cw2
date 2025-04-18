@@ -1,3 +1,0 @@
-[console_scripts]
-runner = scenario_runner.runner:main
-

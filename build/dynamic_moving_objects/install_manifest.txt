@@ -1,2 +1,0 @@
-/home/ayush/challenge_multi_drone/install/dynamic_moving_objects/include/dynamic_object.hpp
-/home/ayush/challenge_multi_drone/install/dynamic_moving_objects/lib/libDynamicMovingObjects.so

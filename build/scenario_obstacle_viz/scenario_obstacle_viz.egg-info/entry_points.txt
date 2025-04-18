@@ -1,3 +1,0 @@
-[console_scripts]
-viz = scenario_obstacle_viz.viz:main
-

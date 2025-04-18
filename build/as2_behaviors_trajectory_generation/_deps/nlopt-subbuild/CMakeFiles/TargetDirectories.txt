@@ -1,3 +1,0 @@
-/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation/_deps/nlopt-subbuild/CMakeFiles/nlopt-populate.dir
-/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation/_deps/nlopt-subbuild/CMakeFiles/edit_cache.dir
-/home/ayush/challenge_multi_drone/build/as2_behaviors_trajectory_generation/_deps/nlopt-subbuild/CMakeFiles/rebuild_cache.dir
